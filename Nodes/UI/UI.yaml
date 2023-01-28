@@ -190,3 +190,17 @@ Children:
     DataType: ReferenceTimeZone
     ModellingRule: Optional
     Value: 1
+- Name: SpinBox1
+  Id: g=06e9a072539e4f155924cce2b1b10149
+  Supertype: SpinBox
+  ReferenceType: HasComponent
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 80.0
